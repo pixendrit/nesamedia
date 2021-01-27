@@ -31,7 +31,7 @@ module.exports = {
         description: `Shërbime digjitale`,
         start_url: `/`,
         background_color: `#141821`,
-        theme_color: `#f6ad55`,
+        theme_color: `#ee3133`,
         display: `standalone`,
         icons: [
           {
