@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Nesa Media`,
+        name: `NesaMedia`,
         short_name: `Nesa-Media`,
         description: `Shërbime digjitale`,
         start_url: `/`,
