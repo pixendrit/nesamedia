@@ -6,48 +6,23 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    // Used for the title template on pages other than the index site
-    siteTitle: `NesaMedia`,
-    // Default title of the page
-    siteTitleAlt: `Nesa Media`,
-    // Can be used for e.g. JSONLD
-    siteHeadline: `Nesa Media - Shërbime Digjitale`,
-    // Will be used to generate absolute URLs for og:image etc.
-    siteUrl: `https://nesa.media`,
-    // Used for SEO
-    siteDescription: `Zhvillim & Kreativitet`,
-    // Will be set on the <html /> tag
+    // You can overwrite values here that are used for the SEO component
+    // Of course you can also add new values here to query them like usual
+    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
+    siteTitle: `NO`,
+    siteTitleAlt: `NO`,
+    siteHeadline: `NO`,
+    siteUrl: `https://NO.de`,
+    siteDescription: `NO`,
     siteLanguage: `en`,
-    // Used for og:image and must be placed inside the `static` folder
     siteImage: `/banner2.jpg`,
-    // Twitter Handle
-    author: `@lekoarts_de`,
+    author: `@pixendrit`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
-      options: {
-        name: `NesaMedia`,
-        short_name: `Nesa-Media`,
-        description: `Shërbime digjitale`,
-        start_url: `/`,
-        background_color: `#141821`,
-        theme_color: `#ee3133`,
-        display: `standalone`,
-        icons: [
-          {
-            src: `/android-chrome.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/android-chrome512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
-      },
+      options: {},
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -58,21 +33,21 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `NesaMedia`,
-        short_name: `Nesa-Media`,
-        description: `Shërbime digjitale`,
+        name: `no`,
+        short_name: `no`,
+        description: `no`,
         start_url: `/`,
         background_color: `#141821`,
-        theme_color: `#ee3133`,
+        theme_color: `#f6ad55`,
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome.png`,
+            src: `/android-chrome-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome512.png`,
+            src: `/android-chrome-512x512.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
