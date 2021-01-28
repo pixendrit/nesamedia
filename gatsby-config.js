@@ -6,14 +6,22 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
+    // Used for the title template on pages other than the index site
     siteTitle: `NesaMedia`,
+    // Default title of the page
     siteTitleAlt: `Nesa Media`,
+    // Can be used for e.g. JSONLD
     siteHeadline: `Nesa Media - Shërbime Digjitale`,
+    // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://nesa.media`,
+    // Used for SEO
     siteDescription: `Zhvillim & Kreativitet`,
+    // Will be set on the <html /> tag
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
-    author: `nesamedia`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner2.jpg`,
+    // Twitter Handle
+    author: `@lekoarts_de`,
   },
   plugins: [
     {
@@ -39,12 +47,12 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/android-chrome.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/android-chrome512.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
