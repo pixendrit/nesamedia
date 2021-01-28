@@ -27,7 +27,27 @@ module.exports = {
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+        name: `NesaMedia`,
+        short_name: `Nesa-Media`,
+        description: `Shërbime digjitale`,
+        start_url: `/`,
+        background_color: `#141821`,
+        theme_color: `#ee3133`,
+        display: `standalone`,
+        icons: [
+          {
+            src: `/android-chrome.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `/android-chrome512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+        ],
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
