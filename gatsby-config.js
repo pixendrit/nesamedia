@@ -6,13 +6,13 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `oha`,
-    siteTitleAlt: `oha`,
-    siteHeadline: `oha`,
-    siteUrl: `https://oha.de`,
-    siteDescription: `oha`,
+    siteTitle: `Nesa Media`,
+    siteTitleAlt: `Nesa Media`,
+    siteHeadline: `Agjensi për marketing digjital`,
+    siteUrl: `https://nesa.media`,
+    siteDescription: `Zhvillim & Kreativitet`,
     siteLanguage: `en`,
-    siteImage: `/banner2.jpg`,
+    siteImage: `/banner.png`,
     author: `@lekoarts_de`,
     basePath: `/`,
   },
@@ -39,16 +39,16 @@ module.exports = {
         description: `oha`,
         start_url: `/`,
         background_color: `#141821`,
-        theme_color: `#f6ad55`,
+        theme_color: `#e63946`,
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome.png`,
+            src: `static/android-chrome.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome512.png`,
+            src: `static/android-chrome512.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
