@@ -12,7 +12,7 @@ module.exports = {
     siteUrl: `https://nesa.media`,
     siteDescription: `Zhvillim & Kreativitet`,
     siteLanguage: `en`,
-    siteImage: `/banner.png`,
+    siteImage: `static/banner.jpg`,
     author: `@lekoarts_de`,
     basePath: `/`,
   },
@@ -34,21 +34,21 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `vfddgfdg`,
-        short_name: `ngfnbnbbn`,
-        description: `oha`,
+        name: `Nesa Media`,
+        short_name: `NesaMedia`,
+        description: `Agjensi për marketing digjital në Ferizaj`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#e63946`,
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome.png`,
+            src: `static/android-chrome.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome512.png`,
+            src: `static/android-chrome512.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
