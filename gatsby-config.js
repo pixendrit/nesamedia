@@ -31,7 +31,7 @@ module.exports = {
         siteUrl: `https://nesa.media`,
         siteDescription: `Zhvillim & Kreativitet`,
         siteLanguage: `en`,
-        siteImage: `/banner2.jpg`,
+        siteImage: `static/banner2.jpg`,
         author: `@pixendrit`,
       },
     },
@@ -53,13 +53,13 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/static/android-chrome-192x192.png`,
-            sizes: `192x192`,
+            src: `/static/android-chrome.png`,
+            sizes: `193x193`,
             type: `image/png`,
           },
           {
-            src: `/static/android-chrome-512x512.png`,
-            sizes: `512x512`,
+            src: `/static/android-chrome512.png`,
+            sizes: `513x513`,
             type: `image/png`,
           },
         ],
