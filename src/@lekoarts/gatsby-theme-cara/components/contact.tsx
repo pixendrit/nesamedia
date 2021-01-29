@@ -68,7 +68,7 @@ const Contact = ({
       <Inner>
         <ContactMDX />
         <Button backgroundColor="#5378ff">
-          <animate
+          <a
             sx={{
               // values referencing scales defined in a theme
               color: 'white',
@@ -76,10 +76,10 @@ const Contact = ({
                 color: 'white',
               },
             }}
-            href="https:m.me/nesamedia"
+            href="https:m.me/nesamedia" target="_blank"
           >
             Gati me bashkëpunu?
-          </animate>
+          </a>
         </Button>
         {/* Start custom button here */}
         <Box my="1rem">
