@@ -25,6 +25,14 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         basePath: `/`,
+        siteTitle: `NesaMedia`,
+        siteTitleAlt: `Nesa Media`,
+        siteHeadline: `Nesa Media Digital Agency`,
+        siteUrl: `https://nesa.media`,
+        siteDescription: `Zhvillim & Kreativitet`,
+        siteLanguage: `en`,
+        siteImage: `/static/banner2.jpg`,
+        author: `@pixendrit`,
       },
     },
     {
