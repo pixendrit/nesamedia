@@ -9,7 +9,7 @@ module.exports = {
     siteTitle: `Nesa Media`,
     siteTitleAlt: `Nesa Media`,
     siteHeadline: `Agjensi për marketing digjital`,
-    siteUrl: `https://nesa.media`,
+    siteUrl: `https://nesamedia2020.netlify.app/`,
     siteDescription: `Zhvillim & Kreativitet`,
     siteLanguage: `en`,
     basePath: `/`,
