@@ -16,7 +16,7 @@ const Footer = () => {
         type="button"
         aria-label="Toggle dark mode"
       >
-        {isDark ? `Light` : `Dark`}
+        {isDark ? `Dritë` : `Terr`}
       </button>
       Copyright &copy; {new Date().getFullYear()}. Të gjitha të drejtat e rezervuara.
       <br />
