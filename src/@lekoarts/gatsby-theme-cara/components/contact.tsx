@@ -73,7 +73,7 @@ const Contact = ({
               // values referencing scales defined in a theme
               color: 'white',
               '&:hover': {
-                color: 'white',
+                color: 'blue',
               },
             }}
             href="https:m.me/nesamedia" target="_blank"
