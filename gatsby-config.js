@@ -12,8 +12,6 @@ module.exports = {
     siteUrl: `https://nesa.media`,
     siteDescription: `Zhvillim & Kreativitet`,
     siteLanguage: `en`,
-    siteImage: `static/banner.jpg`,
-    author: `@lekoarts_de`,
     basePath: `/`,
   },
   plugins: [
