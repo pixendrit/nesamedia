@@ -68,7 +68,7 @@ const Contact = ({
       <Inner>
         <ContactMDX />
         <Button backgroundColor="#5378ff">
-          <Link
+          <animate
             sx={{
               // values referencing scales defined in a theme
               color: 'white',
@@ -79,19 +79,19 @@ const Contact = ({
             href="https:m.me/nesamedia"
           >
             Gati me bashkëpunu?
-          </Link>
+          </animate>
         </Button>
         {/* Start custom button here */}
         <Box my="1rem">
           <Button backgroundColor="transparent">
-            <Link href="https://instagram.com/nesamedia2020">
+            <a href="https://instagram.com/nesamedia2020" target="_blank">
               <FaInstagram color="#bbffe4" />
-            </Link>
+            </a>
           </Button>
           <Button backgroundColor="transparent">
-            <Link href="https:m.me/nesamedia/">
+            <a href="https:m.me/nesamedia/" target="_blank">
               <FaFacebookMessenger color="#bbffe4" />
-            </Link>
+            </a>
           </Button>
         </Box>
         {/* End custom button here */}
