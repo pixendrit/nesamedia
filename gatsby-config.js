@@ -15,7 +15,7 @@ module.exports = {
     siteUrl: `https://nesa.media`,
     siteDescription: `Zhvillim & Kreativitet`,
     siteLanguage: `en`,
-    siteImage: `/static/banner2.jpg`,
+    siteImage: `/banner2.jpg`,
     author: `@pixendrit`,
     
   },
@@ -31,7 +31,7 @@ module.exports = {
         siteUrl: `https://nesa.media`,
         siteDescription: `Zhvillim & Kreativitet`,
         siteLanguage: `en`,
-        siteImage: `/static/banner2.jpg`,
+        siteImage: `/banner2.jpg`,
         author: `@pixendrit`,
       },
     },
