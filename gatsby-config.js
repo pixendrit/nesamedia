@@ -6,33 +6,23 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // Of course you can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `NesaMedia`,
-    siteTitleAlt: `Nesa Media`,
-    siteHeadline: `Nesa Media Digital Agency`,
-    siteUrl: `https://nesa.media`,
-    siteDescription: `Zhvillim & Kreativitet`,
+    siteTitle: `oha`,
+    siteTitleAlt: `oha`,
+    siteHeadline: `oha`,
+    siteUrl: `https://oha.de`,
+    siteDescription: `oha`,
     siteLanguage: `en`,
     siteImage: `/banner2.jpg`,
-    author: `@pixendrit`,
-    
+    author: `@lekoarts_de`,
+    basePath,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
       options: {
-        basePath: `/`,
-        siteTitle: `NesaMedia`,
-        siteTitleAlt: `Nesa Media`,
-        siteHeadline: `Nesa Media Digital Agency`,
-        siteUrl: `https://nesa.media`,
-        siteDescription: `Zhvillim & Kreativitet`,
-        siteLanguage: `en`,
-        siteImage: `/banner2.jpg`,
-        author: `@pixendrit`,
+        name: `sections`,
+        path: `${__dirname}/src/sections`,
       },
     },
     {
@@ -44,22 +34,22 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Nesa Media`,
-        short_name: `NesaMedia`,
-        description: `Zhvillim & Kreativitet`,
+        name: `vfddgfdg`,
+        short_name: `ngfnbnbbn`,
+        description: `oha`,
         start_url: `/`,
         background_color: `#141821`,
-        theme_color: `#e63946`,
+        theme_color: `#f6ad55`,
         display: `standalone`,
         icons: [
           {
             src: `/android-chrome.png`,
-            sizes: `193x193`,
+            sizes: `192x192`,
             type: `image/png`,
           },
           {
             src: `/android-chrome512.png`,
-            sizes: `513x513`,
+            sizes: `512x512`,
             type: `image/png`,
           },
         ],
