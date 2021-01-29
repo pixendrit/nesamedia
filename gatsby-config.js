@@ -9,13 +9,13 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `NO`,
-    siteTitleAlt: `NO`,
-    siteHeadline: `NO`,
-    siteUrl: `https://NO.de`,
-    siteDescription: `NO`,
+    siteTitle: `NesaMedia`,
+    siteTitleAlt: `Nesa Media`,
+    siteHeadline: `Nesa Media Digital Agency`,
+    siteUrl: `https://nesa.media`,
+    siteDescription: `Zhvillim & Kreativitet`,
     siteLanguage: `en`,
-    siteImage: `/banner2.jpg`,
+    siteImage: `/static/banner2.jpg`,
     author: `@pixendrit`,
     
   },
@@ -36,21 +36,21 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `no`,
-        short_name: `no`,
-        description: `no`,
+        name: `Nesa Media`,
+        short_name: `NesaMedia`,
+        description: `Zhvillim & Kreativitet`,
         start_url: `/`,
         background_color: `#141821`,
-        theme_color: `#f6ad55`,
+        theme_color: `#e63946`,
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/static/android-chrome-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/static/android-chrome-512x512.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
