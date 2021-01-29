@@ -12,16 +12,14 @@ module.exports = {
     siteUrl: `https://nesamedia2020.netlify.app/`,
     siteDescription: `Zhvillim & Kreativitet`,
     siteLanguage: `en`,
-    basePath: `/`,
+    siteImage: `/banner.jpg`,
+    author: `@pixendrit`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
-      options: {
-        name: `sections`,
-        path: `${__dirname}/src/sections`,
-      },
+      options: { },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -36,8 +34,8 @@ module.exports = {
         short_name: `NesaMedia`,
         description: `Agjensi për marketing digjital në Ferizaj`,
         start_url: `/`,
-        background_color: `#141821`,
-        theme_color: `#e63946`,
+        background_color: `#001123`,
+        theme_color: `#bbffe4`,
         display: `standalone`,
         icons: [
           {
