@@ -14,7 +14,7 @@ module.exports = {
     siteLanguage: `en`,
     siteImage: `/banner2.jpg`,
     author: `@lekoarts_de`,
-    basePath,
+    basePath: `/`,
   },
   plugins: [
     {
