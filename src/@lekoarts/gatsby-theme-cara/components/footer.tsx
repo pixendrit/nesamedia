@@ -30,7 +30,7 @@ const Footer = () => {
           a: { color: `text` },
         }}
       >
-        <img width="30" height="30" src="https://i.imgur.com/CvmvAcX.png" alt="Nesa Media Logo" />
+        
         {` `}
         <Link
           aria-label="Zhvilluar nga Nesa Media"
@@ -41,8 +41,8 @@ const Footer = () => {
         </Link>
         <div sx={{ mx: 1 }}>nga</div>
         {` `}
-        <Link aria-label="Të gjitha të drejtat e rezervuara" href="https://www.nesa.media">
-          Nesa Media
+        <Link aria-label="Të gjitha të drejtat e rezervuara" href="https://www.pixendrit.com">
+          Pixendrit
         </Link>
       </Flex>
     </Box>
